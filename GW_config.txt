@@ -1,0 +1,29 @@
+# SawSim Config Testcase: MODFLOW BCF2SS
+# Basic domain
+NCOL=15
+NROW=10
+NLAY=2
+DELTAC=500.0         ! Cell width in x-direction (ft)
+DELTAR=500.0         ! Cell width in y-direction (ft)
+NTSP=2              ! Number of time steps (e.g., day)
+DELTAT=1.0      ! Time step size = 86400 seconds (1 day)
+MAX_ITER=20
+Time_start=0.0
+picard_tol=1.0e-8
+# subsurface properties
+VAD_THK=1.0		! Vadose layer thickness (ft)
+UNCONF_THK=100.0	! Unconfined aquifer thickness (ft)
+CONF_AQ_THK=100.0 	! Confined aquifer thickness (ft)
+BED_THK=49.0		! Confining bed thickness (ft)
+BED_K=0.999999e-3       ! Confining bed vertical hydraulic conductivity (ft/day)
+T_SOIL_THK=2.0		! Total soil thickness (ft)
+K_RIVERBED=10000	! River bed hydraulic conductivity (ft/day)
+RIVERBED_THK=1.0	! River bed thickness (ft)
+# Filenames:
+K_FILE=GW_hydraulic_conductivities.txt
+STORAGE_FILE=GW_specific_yield_storage.txt
+BC_FILE=GW_boundary_conditions.txt
+SOURCE_FILE=GW_sources.txt
+HEAD0_FILE=GW_initial_heads.txt
+RIVER_FILE=river_data.txt
+WELL_FILE=well_data.txt
