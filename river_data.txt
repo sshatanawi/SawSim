@@ -1,0 +1,10 @@
+#	Example	RIVER	file	with	columns:	i	j	k	width	length	stage(height)	bottomelev
+#	Format:	i	j	k	width	length	height	bottomelev				
+14	2	2	10	500	-40	-43						
+14	3	2	10	500	-40	-43						
+14	4	2	10	500	-40	-43						
+14	5	2	10	500	-40	-43						
+14	6	2	10	500	-40	-43						
+14	7	2	10	500	-40	-43						
+14	8	2	10	500	-40	-43						
+14	9	2	10	500	-40	-43						
